@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------ font-family - clanPro ------ -------  */
+
+@font-face {
+    font-family: clanPro-black ;
+    src: url('/fonts/ufonts.com_clanpro-black-opentype.otf');
+}
+
+@font-face {
+    font-family: clanPro-bold;
+    src: url('/fonts/ufonts.com_clanpro-bold-opentype.otf');
+}
+
+@font-face {
+    font-family:productsans-regular ;
+    src: url('/product-sans/Product\ Sans\ Regular.ttf');
+}
+
+/* -------------------------@global css-------------------------- */
+
+.d_flex{
+    display: flex;
+}
+
+.justify_content_center{
+    display: flex;
+    justify-content: center;
+}
+
+.justify_content_between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify_content_evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.align_item_center{
+    display: flex;
+    align-items: center;
+}
+
+.font_clanPro_bold{
+    font-family: 'clanPro-bold';
+    font-size: 3.75vw;
+}
+
+.font_clanPro_black{
+    font-family: 'clanPro-black';
+    font-size: 3.75vw;
+}
+
+.font_productsans_medium{
+    font-family: 'Poppins';
+    font-size: 1.45vw;
+}
+
+.custom_container{
+    width: 90%;
+}
+
+/* -----------------margin-padding------------------  */
+.custom_mt_one{
+    margin-top: 1rem;
+}
+
+.custom_pt_one{
+    padding-top: 1rem;
+}
+
+.custom_mt_two{
+    margin-top: 2rem;
+}
+
+.custom_pt_two{
+    padding-top: 2rem;
+}
+
+.custom_mt_three{
+    margin-top: 3rem;
+}
+
+.custom_pt_three{
+    padding-top: 3rem;
+}
+
+/* ------------- margin-bottom-------------  */
+
+.custom_mb_one{
+    margin-bottom: 1rem;
+}
+
+.custom_pb_one{
+    padding-bottom: 1rem;
+}
+
+.custom_mb_two{
+    margin-bottom: 2rem;
+}
+
+.custom_pb_two{
+    padding-bottom: 2rem;
+}
+
+.custom_mb_three{
+    margin-bottom: 3rem;
+}
+
+.custom_pb_three{
+    padding-bottom: 3rem;
+}
+
+/* ----------------------------- margin-padding right ------------  */
+
+.custom_mr_one{
+    margin-right: 1rem;
+}
+
+.custom_pr_one{
+    padding-right: 1rem;
+}
+
+.custom_mr_two{
+    margin-right: 2rem;
+}
+
+.custom_pr_two{
+    padding-right: 2rem;
+}
+
+.custom_mr_three{
+    margin-right: 3rem;
+}
+
+.custom_pr_three{
+    padding-right: 3rem;
+}
+
+/* ------------ margin-padding left --------------------  */
+.custom_ml_one{
+    margin-left: 1rem;
+}
+
+.custom_pl_one{
+    padding-left: 1rem;
+}
+
+.custom_ml_two{
+    margin-left: 2rem;
+}
+
+.custom_pl_two{
+    padding-left: 2rem;
+}
+
+.custom_ml_three{
+    margin-left: 3rem;
+}
+
+.custom_pl_three{
+    padding-left: 3rem;
+}
+
+
+
+/* ---------------------- Header ---------------------------------   */
+
+.custom_header{
+    width: 100%;
+    background-color: #FF3F55;
+    height: 5.20vw;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.logo_image img{
+    width: 8vw;
+    color: white;
+    background-color: white;
+}
+
+.navbar a{
+    font-family: 'productsans-regular';
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-size: 0.94vw;
+}
+
+.mobile_icon{
+    display: none;
+}
+
+.navigation_bar{
+    position: relative;
+}
+
+/* -------------------------- Hero - Section -------------------------  */
+
+.custom_hero_section{
+    background-color:#FF3F55 ;
+    padding-top: 6vw;
+}
+
+
+.hero_section_text_content{
+    width: 40vw;
+    flex-direction: column;
+}
+
+.custom_letgo{
+    font-size: 4.68vw;
+    font-family: 'clanPro-black';
+    color: white;
+    text-transform: uppercase;
+}
+
+.custom_hero_para{
+    font-size: 2.03vw;
+    font-family: 'poppins';
+    color: white;
+}
+
+.hero_more_text_content{
+    color: #E5BD01;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.45vw;
+}
+
+
+/* -------------------buttons------------  */
+
+.get_in_touch,.pricing{
+    cursor: pointer;
+    outline: none;
+    width: 12.35vw;
+    height: 4.48vw;
+    border-radius: 43px;
+    font-size: 1.25vw;
+    font-family: 'Product-Sans-bold';
+}
+
+.get_in_touch{
+    border: none;
+    color: #FF3F55;
+    background-color:white;
+}
+
+.pricing{
+    color: white;
+    background-color: #FF3F55;
+    border: 2px solid white;
+}
+
+.pricing:hover{
+    color: #FF3F55;
+    background-color: white;
+    transition: .6s;
+}
+
+.get_in_touch:hover {
+    color: white;
+    background-color: #FF3F55;
+    border: 2px solid white;
+     transition: .6s;
+}
+
+.hero_section_image_content img{
+    margin-left:2rem;
+    width:50vw;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+/* ---------------------- letgo Section -----------  */
+
+.letgo_section{
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/* ----------------- letgo clone-----------------  */
+.custom_letgo_clone{
+    background-color: #F8F8F8;
+}
+
+.letgo_clone div{
+    width:50%;
+}
+
+
+.letgo_clone_text p{
+    width: 44vw;
+    color: #2B2B2B;
+}
+
+.letgo_clone_text{
+    flex-direction: column;
+}
+
+.letgo_clone_image img{
+    width: 35vw;
+    height: 27vw;
+}
+
+/* ---------------- custom_reliable_marketplace -------------------  */
+
+.custom_online_marketplace{
+   position: relative;
+}
+
+.reliable_online_marketplace {
+    margin-top: 10rem;
+    background-image: url('/Assests/Rectangle\ 24503.svg');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    height:45vw;
+}
+
+ .reliable_online_image{
+    width: 30%;
+}
+
+ .reliable_online_text_content{
+    width: 60%;
+}
+
+.reliable_online_image{
+    justify-content: flex-end;
+    position: relative;
+}
+
+.reliable_online_image img{
+    height: 50vw;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.reliable_online_text_content{
+    flex-direction: column;
+}
+
+.reliable_online_text_content h2{
+  
+    text-transform: uppercase;
+    font-size: 3.39vw;
+    font-family: 'clanPro-black';
+    color: white;
+}
+
+.reliable_online_text_content p{
+    color: white;
+}
+
+.request_Demo_btn{
+    cursor: pointer;
+    border: none;
+    font-family: 'productsans-regular';
+    font-size: 1.2vw;
+    width: 13vw;
+    height: 3.90vw;
+    background-color: white;
+    color: #FF3F55;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.request_Demo_btn:hover{
+    background-color: #FF3F55;
+    color: white;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+
+
+.earn_sale img{
+    width: 7vw;
+    height: 7vw;
+}
+
+/* -------------------- Revenue Modal ------------------------  */
+
+.revenue_modal_online{
+    width: 90vw;
+}
+
+.revenue_modal_text{
+    color: #FF3F55;
+    text-align: center;
+    /* border: 2px solid black; */
+
+}
+
+.category_box{
+    /* border: 2px solid red; */
+    padding: 3rem 0;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 20px 48px #12314729;
+}
+
+.category_box:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+
+.category_box p{
+    text-align: center;
+    width: 18vw;
+    color: #123147;
+    font-family: 'Poppins';
+    font-size: 0.9vw;
+    /* border: 2px solid rgb(10, 218, 10); */
+}
+
+.category_box h6{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 20vw;
+    font-size: 1.5vw;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+/* ----------------------------------- */   
+.customer_app_head_text h2{
+    text-align: center;
+    color: #FF3F55;
+}
+
+
+.profile_content_section img{
+    width: 4.5vw;
+    height: 4.5vw;
+} 
+
+.customer_app_image_content , .customer_app_text_content{
+    width: 50%; 
+
+}
+
+.customer_app_image_content img{
+    width: 28vw;
+}
+
+
+.custom_customer_app{
+    flex-direction: column;
+}
+
+.profile_text_content h2{
+    border-left: 8px solid #FF3F55;
+    font-size: 1.78vw;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FF3F55;
+}
+
+.profile_text_content p{
+    width: 35vw;
+    font-size: 1.3vw;
+    font-family: 'Poppins';
+}
+
+.admin_feature_text h2{
+    border-left: none;
+    border-right: 8px solid #FF3F55;
+}
+
+
+.admin_mockup_image img{
+    width: 36vw;
+    height: 25vw;
+}
+
+.admin_feature{
+    text-align: right;
+}
+
+
+/* ------------------- */
+
+.custom_premium_feature{
+    flex-direction: column;
+}
+
+.premium_feature_head_text h2{
+    color: #FF3F55;
+    text-align: center;
+}
+
+.premium_features_images img{
+    width: 16vw;
+    margin-right:4rem;
+}
+
+.premium_features_images{
+    overflow: auto;
+
+}
+
+.premium_features_images::-webkit-scrollbar {
+    display: none;
+  }
+
+/* -------------------- advanced letgo section    */
+
+.advanced_letgo_clone{
+    background-image: url('/Assests/Rectangle\ 24521.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 45vw;
+}
+
+.advanced_letgo_image{
+    width: 50%;
+}
+
+.advanced_letgo_image img{
+    width: 51vw;
+}
+
+.advanced_letgo_text{
+    align-items: flex-end;
+}
+
+.advanced_letgo_text h2{
+    text-align: right;
+    /* width: 43vw; */
+}
+
+/* --------------------------Perk of lauching -----  */
+.custom_perk_lauching{
+    flex-direction: column;
+}
+
+.perk_lauching_text h2{
+    width: 70vw;
+}
+
+
+
+
+
+

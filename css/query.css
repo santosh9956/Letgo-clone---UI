@@ -1,0 +1,342 @@
+/* 
+@media (max-width:576px) {
+    .custom_container{
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) {
+    .custom_container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .custom_container{
+       max-width:720px;
+    }
+}
+
+@media (min-width:992px) {
+    .custom_container{
+       max-width:960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .custom_container{
+       max-width:1140px;
+    }
+}
+
+
+@media (min-width:1400px) {
+    .custom_container{
+       max-width:1320px;
+    }
+} */
+
+
+@media (max-width:600px) {
+
+    .custom_container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .font_clanPro_black {
+        font-family: 'clanPro-black';
+        font-size: 6vw;
+    }
+
+    .font_clanPro_bold {
+        font-family: 'clanPro-bold';
+        font-size: 6vw;
+    }
+
+    .font_productsans_medium {
+        font-family: 'Poppins';
+        font-size: 3vw;
+    }
+/* ------------------------------------ Header ----------------  */
+    
+    .custom_header{
+        padding-left: 10px;
+        height: 10vw;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .navbar{
+        padding:10px;
+        box-shadow: 1px 2px 18px #888888e3;
+        position: absolute;
+        top: 10px;
+        right: 80px;
+        width: 25vw;
+        background-color: #ff3f55; 
+    }
+
+    .navbar a{
+        font-size: 3.5vw;
+    }
+    
+
+   .mobile_icon{
+        display: block ;
+        margin-right: 2rem;
+    }
+
+    .mobile_icon img{
+        width: 7vw;
+        height: 7vw;
+    }
+
+
+/* --------------- Hero section --------------  */
+
+.hero_section{
+    display: block;
+    padding-top: 10vw;
+    padding:0 10px;
+}
+    
+.custom_letgo {
+    font-size: 6vw;
+}
+
+.hero_section_text_content{
+    width: 100%;
+}
+
+.custom_hero_para {
+    font-size: 4vw;
+}
+
+.hero_more_text_content {
+    font-size: 3.5vw;
+    padding: 0;
+}
+
+.get_in_touch, .pricing {
+    width: 20vw;
+    height: 7vw;
+    font-size: 3vw;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.hero_section_image_content img {
+    margin-top: 2rem;
+    width: 80vw;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+/* ------------------------letgo section ---------------  */
+
+.custom_letgo_clone{
+    padding: 0 10px;
+}
+
+
+.letgo_clone{
+    display: block;
+}
+
+.letgo_clone div{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.letgo_clone_text p {
+    width: 90%;
+    color: #2B2B2B;
+}
+
+.letgo_clone_image img {
+    width: 80vw;
+    height: 60vw;
+    object-fit: cover;
+}
+
+.profile_content_section{
+    padding: 0 10px;
+}
+
+/* ------------- Reliable online features ---------------  */
+.custom_online_marketplace{
+    padding:0 ;
+}
+
+.reliable_online_marketplace{
+    padding: 2rem 0;
+    background-size: 100% 100%;
+}
+
+.reliable_online_text_content h2 ,.reliable_online_text_content p{
+    padding-bottom: 10px;
+}
+
+.request_Demo_btn{
+    width: 20vw;
+    height: 5vw;
+    font-size: 2.5vw;
+}
+
+.reliable_online_image img{
+    height: 65vw;
+}
+
+.reliable_online_image{
+    width: 38%;
+}
+
+/* ---------------------- revenue modal ----------------- */
+
+.revenue_modal_text{
+    padding:1rem 0 ;
+}
+
+.box_content_category{
+    margin-bottom: 0;
+    width: 90vw;
+    display: block;
+}
+.category_box{
+    margin: 1rem 0;
+}
+
+.earn_sale img {
+    width: 15vw;
+    height: 15vw;
+}
+
+.category_box h6 {
+    width: 80vw;
+    font-size: 5vw;
+    padding: 10px 0;
+}
+
+.category_box p {
+    width: 70vw;
+    font-size: 4vw;
+    /* border: 2px solid rgb(10, 218, 10); */
+}
+
+/* -------------------Feature clone ------------------  */
+
+.customer_app_image_text_content{
+    display: block;
+}
+
+.customer_app_image_content, .customer_app_text_content{
+    width: 100%;
+}
+
+.customer_app_image_content img{
+    width: 60vw;
+    object-fit: cover;
+}
+
+.profile_text_content{
+    padding:0 1rem;
+}
+
+.profile_content_section img {
+    width: 10vw;
+    height: 10vw;
+}
+
+.profile_text_content h2 {
+    border-left: 4px solid #FF3F55;
+    font-size: 4vw;
+    padding:10px 10px;
+    margin-bottom: 10px;
+}
+
+
+.admin_feature_text h2 {
+    border-left: none;
+    border-right: 4px solid #FF3F55;
+}
+
+.profile_text_content p {
+    padding-left: 10px;
+    width: auto;
+    font-size: 3.5vw;
+    font-family: 'Poppins';
+}
+
+.custom_admin_feature{
+    flex-direction: column-reverse;
+}
+
+.admin_mockup_image img {
+    width: 80vw;
+    height: 50vw;
+}
+
+
+/* ----------------premium letgo ----------  */
+.advanced_letgo_image img {
+    width: 48vw;
+}
+.advanced_letgo_image{
+    padding: 10px;
+}
+
+
+.custom_premium_feature{
+    padding:0 1rem;
+}
+
+.premium_features_images img {
+    width: 25vw;
+    margin-right:10px;
+}
+
+
+.perk_lauching_text h2{
+    width: 90vw;
+   
+}
+
+.perk_lauching_text{
+    padding: 0;
+    margin: 0;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
